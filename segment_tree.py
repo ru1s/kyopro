@@ -1,4 +1,4 @@
-class Segment_Tree:
+class SegmentTree:
 
     def __init__(self, default_list : list, element : int = -10**18, tree_type = max):
         list_len = len(default_list)
