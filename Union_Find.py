@@ -38,7 +38,7 @@ class UnionFind:
         return self.sizes[self.find(x)]
     
     def serch(self) -> dict:
-        tmp = {}
+        res = {}
         for i in range(self.n):
-            tmp.setdefault(self.find(i), []).append(i)
-        return tmp
+            res.setdefault(self.find(i), []).append(i)
+        return res
