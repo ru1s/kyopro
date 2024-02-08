@@ -2,8 +2,8 @@
 競プロ用のpythonのclass
 これから追加していく（予定）
 
-[Union_Find.py](#unionfind)
-[segment_tree.py](#segmenttree)
+[UnionFind](#unionfind)
+[SegmentTree](#segmenttree)
 
 
 ## [UnionFind](Union_Find.py)
