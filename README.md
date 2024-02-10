@@ -32,12 +32,12 @@
 
 ## [SegmentTree](segment_tree.py)
 
-### `SegmentTree(default_list, element, tree_type)`
+### `SegmentTree(default_list, element, treefunc)`
 - `default_list` : 初期化に使用するリスト
 - `element` : セグメント木の各ノードの初期値
-- `tree_type` : 二つの要素をマージする際に使用する関数
+- `treefunc` : 二つの要素をマージする際に使用する関数
 
-セグメント木を初期化し、`default_list` の要素を使用して木を構築します。`tree_type` に応じて、各内部ノードには、その子ノードの値をマージした結果が格納されます。
+セグメント木を初期化し、`default_list` の要素を使用して木を構築します。`treefunc` に応じて、各内部ノードには、その子ノードの値をマージした結果が格納されます。
 
 ### `set(ind, val)`
 - `ind` : 更新する要素のインデックス
