@@ -1,10 +1,10 @@
 class SegmentTree:
 
-    def __init__(self, default_list : list, element : int = -10**18, tree_type = max):
+    def __init__(self, default_list : list, element : int = -10**18, treefunc = max):
         list_len = len(default_list)
         self.element = element
         self.N = list_len
-        self.function = tree_type
+        self.function = treefunc
         self.a = [0]*list_len + default_list
         for i in range(list_len-1, 0, -1):
             self.a[i] = self.function(self.a[i<<1], self.a[(i<<1)+1])
