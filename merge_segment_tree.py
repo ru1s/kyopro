@@ -1,6 +1,6 @@
 from bisect import bisect_right
 
-class MargeSegmentTree:
+class MergeSegmentTree:
 
     def __init__(self, default_list : list):
         list_len = len(default_list)
